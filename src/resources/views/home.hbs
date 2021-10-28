@@ -1,0 +1,66 @@
+<form method="POST" action="/products/store">
+  <div class="row mb-3">
+    <label for="inputName" class="col-sm-2 col-form-label">Tên sản phẩm</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="name" id="inputName" />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputOldPrice" class="col-sm-2 col-form-label">Giá cũ</label>
+    <div class="col-sm-10">
+      <input
+        type="text"
+        name="price_old"
+        class="form-control"
+        id="inputOldPrice"
+      />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputNewPrice" class="col-sm-2 col-form-label">Giá Mới</label>
+    <div class="col-sm-10">
+      <input
+        type="text"
+        name="price_new"
+        class="form-control"
+        id="inputNewPrice"
+      />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputPerson" class="col-sm-2 col-form-label">Person</label>
+    <div class="col-sm-10">
+      <input type="text" name="person" class="form-control" id="inputPerson" />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputColors" class="col-sm-2 col-form-label">Color</label>
+    <div class="col-sm-10">
+      <input type="text" name="color" class="form-control" id="inputColors" />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputImages" class="col-sm-2 col-form-label">Images</label>
+    <div class="col-sm-10">
+      <input
+        type="text"
+        name="photoURL"
+        class="form-control"
+        id="inputImages"
+      />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputTypes" class="col-sm-2 col-form-label">Loại sản phẩm</label>
+    <div class="col-sm-10">
+      <input type="text" name="type" class="form-control" id="inputTypes" />
+    </div>
+  </div>
+  <div class="row mb-3">
+    <label for="inputSell" class="col-sm-2 col-form-label">Loại SELL</label>
+    <div class="col-sm-10">
+      <input type="text" name="type_sell" class="form-control" id="inputSell" />
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Lưu sản phẩm</button>
+</form>
